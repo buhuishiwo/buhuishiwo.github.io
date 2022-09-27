@@ -24,7 +24,7 @@
 
   
 
-  <title>playlist | Hexo</title>
+  <title>歌单 | Mesonsaber的博客</title>
 
   
 
@@ -39,9 +39,6 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
-<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 <body>
   <div class="root-container">
@@ -59,7 +56,7 @@
     <div class="navbar-logo">
       <a href="/">
         
-          Hexo
+          Mesonsaber的博客
         
       </a>
     </div>
@@ -104,7 +101,7 @@
   
     <div class="header-content">
       <div class="post-text layout-block layout-padding">
-        <h1 class="title-wrap">playlist</h1>
+        <h1 class="title-wrap">歌单</h1>
         
       </div>
     </div>
@@ -121,10 +118,7 @@
     <div class="article-info">
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        
-    <div id="aplayer-fktAXNcl" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="695936715" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340" data-preload="auto" data-theme="#FF4081"
-    ></div>
+        <div class="aplayer-box" data-url='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.mp3' data-name='アイロニ' data-artist='鹿乃' data-cover='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.jpg' data-lrc='https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.lrc' data-lrcType='3' ></div>
 
       </section>
 
@@ -263,6 +257,34 @@
 
   
   <!-- aplayer -->
+
+
+  <!-- aplayer 音频 start -->
+  <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+  <script type="text/javascript" src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <script type="text/javascript">
+    const aplayer = document.querySelectorAll(".aplayer-box");
+    aplayer && initaplayer(aplayer);
+    function initaplayer(els) {
+      let elsArr = Array.from(els);
+      elsArr.forEach(el => {
+        let params = {
+          container: el,
+          audio: { ...el.dataset },
+          theme: "#b7daff",
+          autoplay: true,
+          loop: all,
+          mutex: true,
+        }
+        if (el.dataset.lrc) {
+          params['lrcType'] = 3
+        }
+        new APlayer(params);
+      });
+    }
+  </script>
+  <!-- aplayer 音频 end -->
+  
 
 
 <!-- dplayer -->
