@@ -24,7 +24,7 @@
 
   
 
-  <title>firstBlog | Hexo</title>
+  <title>playlist | Hexo</title>
 
   
 
@@ -39,12 +39,15 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 <body>
   <div class="root-container">
     
 <!-- header container -->
-<header class="header-container post">
+<header class="header-container">
   
     <div class="post-image" style="background-image: url(https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg)"></div>
   
@@ -96,81 +99,40 @@
 
   
   
-    <div class="header-content">
-      <div class="post-text layout-block">
-        <div class="layout-margin">
-          <h1 class="title-wrap">firstBlog</h1>
-          <h2 class="title-sub-wrap">
-            <strong>Chen Wei</strong>
-            <span>发布于</span>
-            <time  class="article-date" datetime="2022-09-26T14:39:25.000Z" itemprop="datePublished">2022-09-26</time>
-          </h2>
-          <ul class="wrap-list dark">
-  
-</ul>
-          <ul class="wrap-list dark">
-  
-</ul>
-        </div>
-      </div>
-    </div>
-  
 
   
+  
+    <div class="header-content">
+      <div class="post-text layout-block layout-padding">
+        <h1 class="title-wrap">playlist</h1>
+        
+      </div>
+    </div>
   
   
 </header>
 
-    <!-- 文章 -->
+    <!-- 分页(其他自定义页面) -->
 
-<!-- 文章内容 -->
+<!-- 自定义页面 -->
+
 <div class="body-container">
   <article class="content-container layout-block post-container">
     <div class="article-info">
       
-      
-      
-      
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="这是我的第一个Blog"><a href="#这是我的第一个Blog" class="headerlink" title="这是我的第一个Blog"></a>这是我的第一个Blog</h2><p><strong>首先，我做一下自我介绍</strong></p>
-<p>我是来自<strong>温州理工学院</strong>的一名<strong>计算机科学与技术</strong>专业的大一新生。我花了不少时间学习搭建了这个属于我自己的博客，之后，我会在这里分享一些与学习有关的内容，也会更新一些日常内容，比如和<strong>她</strong>的一些日常。</p>
-<p><img src="https://i.postimg.cc/Px9L3NDn/ka.jpg"></p>
-
-      </section>
-
-      
-      
-
-      <section class="page-message-container layout-padding">
         
-
-
-  
-  
-    <div class="valine-container comments-container content-padding--primary soft-size--large soft-style--box">
-      <div id="valine_thread" class="valine-thread"></div>
-    </div>
-    <script type="text/javascript" src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script type="text/javascript" src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <script type="text/javascript">
-      new Valine({
-        el: "#valine_thread",
-        appId: "Vy06IHHWNAoBR4fq1Tz6N5yy-gzGzoHsz",
-        appKey: "yRMyoEO5nPGHMLR3nVqwjY4J",
-        avatar: "mm",
-        placeholder: "随便说点什么叭～",
-        notify: true,
-        visitor: true,
-        pageSize: 10,
-      });
-    </script>
-  
-
-  
-  
-
+    <div id="aplayer-fktAXNcl" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="695936715" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340" data-preload="auto" data-theme="#FF4081"
+    ></div>
 
       </section>
+
+      
+      
+
+      
+      
     </div>
     <div class="widget-info">
       <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -207,8 +169,6 @@
     </div>
   </div>
 </section>
-
-      
 
       
 <section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -254,6 +214,7 @@
     </div>
   </article>
 </div>
+
 
     <!-- footer container -->
 <footer id="footer" class="footer">
