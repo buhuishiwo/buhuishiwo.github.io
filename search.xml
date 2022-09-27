@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>FirstBlog</title>
+      <link href="//post/FirstBlog.html"/>
+      <url>//post/FirstBlog.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="这是我的第一个Blog"><a href="#这是我的第一个Blog" class="headerlink" title="这是我的第一个Blog"></a>这是我的第一个Blog</h2><p><strong>首先，我做一下自我介绍</strong></p><p>我是来自<strong>温州理工学院</strong>的一名<strong>计算机科学与技术</strong>专业的大一新生。我花了不少时间学习搭建了这个属于我自己的博客，之后，我会在这里分享一些与学习有关的内容，也会更新一些日常内容，比如和<strong>她</strong>的一些日常。</p><p><img src="https://i.postimg.cc/Px9L3NDn/ka.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DAYING </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="//post/%E6%B5%8B%E8%AF%95.html"/>
+      <url>//post/%E6%B5%8B%E8%AF%95.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这是一个测试页面</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TEST </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
