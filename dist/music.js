@@ -1,7 +1,8 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
-    autoplay: false,
+    autoplay: true,
+    loop: 'all',
     audio: [
       {
         name: "晴れが来る",
@@ -11,7 +12,7 @@ const ap = new APlayer({
       },
       {
         name: '喜劇',
-        artist: '摩登兄弟',
+        artist: '电鸟个灯泡',
         url: 'http://m801.music.126.net/20220927181017/3f752c50341637bf653baceefc27e57a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14468171881/65fe/cbee/4be7/c38ca5bcc6b1faa7370e5a59eb462250.mp3',
         cover: 'https://p1.music.126.net/_sGZwt82duHeC0et8lsF0w==/109951167257363569.jpg?param=130y130',
       }
