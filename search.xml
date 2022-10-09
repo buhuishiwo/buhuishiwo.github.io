@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>高等数学第一节课</title>
+      <link href="//post/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%8A%82%E8%AF%BE.html"/>
+      <url>//post/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%8A%82%E8%AF%BE.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="初识高等数学"><a href="#初识高等数学" class="headerlink" title="初识高等数学"></a>初识高等数学</h2><h3 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h3><p><em>在高中的时候，对高等数学的概念只有一个字：<strong>难</strong>！上了大学之后，知道了高等数学是许多理学和工学专业的基础学科，是必须要掌握的一门学科。所以，为了敦促自己认真学习，我开始上传关于高等数学的博客，希望自己能坚持！</em></p><h3 id="第一课"><a href="#第一课" class="headerlink" title="第一课"></a>第一课</h3><ol><li><p>邻域</p><p>定义：邻域是一个特殊的区间，以点a为中心点任何开区间称为点a的邻域，记作U(a)。</p><p>点a的δ邻域：U(a,δ)={x||x-a|&lt;δ}=(a-δ,a+δ).<img src="https://pic.jitudisk.com/public/2022/10/09/d6aa56dbbaeec.gif"></p></li></ol><p>​        点a的去心<strong>δ</strong>邻域：有时用到的邻域需要把邻域中心去掉，点<em>a</em>的<em>δ</em>邻域去掉中心<em>a</em>后，称为点<em>a</em>去心δ邻域，记作</p><p><img src="https://pic.jitudisk.com/public/2022/10/09/5245cdfed54fc.svg"></p><p>（表达方法是在U上标一个小的0）,即</p><p><img src="https://pic.jitudisk.com/public/2022/10/09/124460b125d5b.svg" alt="img"></p><p>这里</p><p><img src="https://pic.jitudisk.com/public/2022/10/09/8616cf0226d88.svg" alt="img"></p><p>表示</p><p><img src="https://pic.jitudisk.com/public/2022/10/09/08a535d428163.svg" alt="img"></p><p>有时把开区间(<em>a - δ, a</em>)称为a的<strong>左δ邻域</strong>，把开区间(<em>a, a + δ</em>)称为a的右δ邻域。</p><ol start="2"><li><p>映射</p><ol><li><p>定义：设X,Y是两个非空集合，如果存在一个法则f，使得对X中每个元素x，按法则f，在Y中有唯一确定的元素y与之对应，那么称f为从X到Y的映射，记作<strong>f：X-&gt;Y</strong></p><p>其中，集合X称为映射f的定义域，记作Df，即Df=X；X中所有元素的像所组成的集合称为映射f的值域，记作Rf或f(X).</p></li><li><p>特殊情况：</p><ol><li>满射：R=Y，就是说，Y中的每个元素y都有一个或多个x与之对应。</li><li>单射：就是说，一个x只能对应一个y，x与y一一对应。</li><li>双射：既是满射，又是单射。</li></ol></li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 高等数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>黑峡谷X3红轴使用体验</title>
+      <link href="//post/%E9%BB%91%E5%B3%A1%E8%B0%B7X3%E7%BA%A2%E8%BD%B4%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.html"/>
+      <url>//post/%E9%BB%91%E5%B3%A1%E8%B0%B7X3%E7%BA%A2%E8%BD%B4%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何优雅的使用Hexo与GitHub搭建自己的博客</title>
       <link href="//post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8Hexo%E4%B8%8EGitHub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html"/>
       <url>//post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8Hexo%E4%B8%8EGitHub%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html</url>
@@ -30,8 +68,8 @@
     
     <entry>
       <title>FirstBlog</title>
-      <link href="//post/FirstBlog.html"/>
-      <url>//post/FirstBlog.html</url>
+      <link href="//post/firstBlog.html"/>
+      <url>//post/firstBlog.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="这是我的第一个Blog"><a href="#这是我的第一个Blog" class="headerlink" title="这是我的第一个Blog"></a>这是我的第一个Blog</h2><p><strong>首先，我做一下自我介绍</strong></p><p>我是来自<strong>温州理工学院</strong>的一名<strong>计算机科学与技术</strong>专业的大一新生。我花了不少时间学习搭建了这个属于我自己的博客，之后，我会在这里分享一些与学习有关的内容，也会更新一些日常内容，比如和<strong>她</strong>的一些日常。</p><p><img src="https://i.postimg.cc/Px9L3NDn/ka.jpg"></p>]]></content>
       
